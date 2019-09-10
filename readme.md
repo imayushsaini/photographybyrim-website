@@ -1,4 +1,4 @@
-Website for PhotographyCClub RIM4.0
+Website for Photography Club RIM 4.0
 
 Static website
 
