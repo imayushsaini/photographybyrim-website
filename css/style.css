@@ -1,0 +1,165 @@
+
+ .nav-glow {
+   
+     background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(96, 203, 226, .75);
+-moz-box-shadow: 0px 0px 15px 5px rgba(96, 203, 226, .75);
+box-shadow: 0px 0px 15px 5px rgba(96, 203, 226, .75);
+ 
+  transition: background-color 700ms;
+ 
+}
+.nav-glow0{
+    background-color:transparent;
+    transition: background-color 700ms;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+.nav-item{
+    font-family: 'Hind Madurai', sans-serif;
+font-weight: bold;
+font-size: 1.5rem;}
+ .rimbg{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/rim-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% auto;
+ }
+.member-image {
+    margin-bottom: 30px;
+    border-radius: 30px 30px 30px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.member-image img {
+    border-radius: 30px 30px 30px 0;
+    
+    height: 100%;
+}
+
+.member-text > h4 {
+    font-size: 22px;
+    color: #6ae0e0;
+}
+
+.member-text > p {
+    color: #b5aec4;
+    margin-bottom: 0;
+}
+
+.team-hover-effects {
+    position: absolute;
+    top: 0;
+    left: 23px;
+    width: 82%;
+    height: 100%;
+   
+    border-radius: 30px 30px 30px 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.single-team-member:hover .team-hover-effects {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.team-social-icon {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 164%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.team-social-icon > a {
+    font-size: 20px;
+    color: #fff;
+    background: #6ae0e0;
+    height: 48px;
+    width: 49px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 0;
+    display: block;
+    margin: 2.5px;
+}
+
+.single-team-member {
+    margin-bottom: 50px;
+}
+
+/* --------------------------
+:: 13.0 Contact Area CSS Start
+-------------------------- */
+
+.address-text > p,
+.phone-text > p,
+.email-text > p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.address-text > p > span,
+.phone-text > p > span,
+.email-text > p > span {
+    color: #5b32b4;
+}
+
+
+.card-body h4{
+    color:black;
+   
+}
+.card-body p{
+    color: lightgrey;
+}
+.card{
+     box-shadow: 10px 10px 5px rgba(84, 178, 228, .75);
+}
+
+#logo{
+    width: 116px;
+    height:60px;
+}
+#footer-logo{
+    width: 173px;
+    height: 100px;
+   margin-bottom: 45px;
+   }
+
+   /* gallery page 
+
+   */
+   .row .col-lg-4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+
+
+   /*gallety
+   */
+   iframe{
+    box-shadow: 10px 10px 5px grey; 
+
+    background-color: #f3f3f5;
+   }
